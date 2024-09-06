@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></rel>
+    <title>ARCH - Your Global Partner</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffcfc;
+        }
+
+        header {
+            
+            background-color: #fffdfd;
+            color: #fffefe;
+            display: flex;
+            justify-content: space-between;                                  
+             align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            color: rgb(12, 11, 11);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            color: #000000;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .social-media a {
+            color: rgb(4, 4, 4);
+            margin-left: 100px;
+        }
+
+        .banner {
+            
+            color: #000000;
+            text-align: center;
+            padding: 50px 20px;
+            
+        }
+
+        
+            
+        
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section img {
+            color: rgb(0, 0, 0);
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #050505;
+            color: #000000;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .LOL{
+            
+            width: 100%;
+            height: 100vh;
+          object-fit: cover;  
+        }
+        .Photo{
+            position: absolute;
+            right: 10px;
+
+        }
+        .Bild{
+            right: 100000px;
+            top: 100px;
+        }
+
+
+        .Photo{
+         position: absolute;
+         right: 300px;   
+         top: 2810px;
+
+        }
+        .Text{
+            position: absolute;
+            right: 850px;
+            width: 250px;
+            top: 2850px;
+        }
+        .Text2{
+            position: absolute;
+            right: 850px;
+            width: 250px;
+            top: 2900px;
+        }
+        .Text3{
+            position: absolute;
+            right: 950px;
+            top: 3050px;
+            color: rgb(227, 227, 20);
+        }
+        .Text4{
+            position: absolute;
+            top: 2850px;
+            width: 250px;
+            right: 40px;
+        }
+        .Text5{
+            position: absolute;
+            top: 2900px;
+            width: 250px;
+            right: 40px;
+        }
+        .Text6{
+            position: absolute;
+            top: 3050px;
+            right: 90px;
+            color:rgb(227, 227, 26)
+        }
+        .pok{
+            position: absolute;
+            top: 1300px;
+            right: 40px;
+            font-size: 60px;
+            width: 600px;
+            color: white;
+            
+        }
+        
+            
+        
+
+
+        .circle {
+            position: absolute;
+     top: 1500px;
+     right: 580px;
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  border-radius: yellow;
+}
+.M{
+    position: absolute;
+    top: 1465px;
+    right: 590px;
+        color: orange;
+        font-size:40px;
+}
+.V{
+    position: absolute;
+    top: 1470px;
+    right: 480px;
+    color: white;
+
+}
+
+div.scrollmenu {
+  background-color: #ffffff;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+.icon {
+    position: absolute;
+    
+    font-size: 30px; 
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(0.5);
+}
+
+
+ul {
+  list-style-type: none;
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fefafa;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f2eaea;
+}
+
+
+
+
+
+
+.j{
+    position: absolute;
+    left: 1300px;
+    top: 10px;
+    
+
+
+}
+.k{
+position: absolute;
+left: 1270px;
+top: 10px;
+color: white;
+
+}
+.ü{
+    position: absolute;
+    left: 1240px;
+    top: 10px;
+    color: white;
+}
+.s{
+position: absolute;
+left: 1210px;
+top: 10px;
+
+}
+
+.phone{
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.active{
+
+color: #000000;
+
+}
+.mock{
+  color: #000000;  
+
+
+}
+.lock{
+
+    color: #000;
+}
+
+.dock{
+color: #000000;
+
+}
+
+.dot {
+  height: 55px;
+  width: 55px;
+  
+  margin: 90px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.Modern{
+position: absolute;
+left: 370px;
+top: 1060px;
+
+
+
+}
+.headingl{
+    position: absolute;
+    top: 100px;
+    width: 350px;
+    color: white;
+    
+}
+
+.rectangle {
+    position: absolute;
+    top: 400px;
+  height: 35px;
+  width: 110px;
+  background-color:rgb(229, 229, 4);
+  left: 100px;
+}
+
+
+
+
+.paragraph{
+position: absolute;
+top: 200px;
+width: 360px;
+color: white;
+
+
+}
+.dolas{
+
+    
+
+position: absolute;
+top: 385px;
+height: 38px;
+width: 125px;
+background-color:rgb(0, 0, 0);
+left: 290px;
+
+}
+
+
+.Read{
+    position: absolute;
+    top: 390px;
+    left: 108px;
+    color: white;
+
+
+}
+.contact {
+    position: absolute;
+    top: 393px;
+
+    left: 305px;
+    color: white;
+
+
+}
+
+.Nullam{
+
+position: absolute;
+left: 370px;
+top: 1060px;
+width: 150px;
+
+}
+.urna{
+ position: absolute;
+left: 590px;
+top: 1040px;
+width: 700px;
+}
+.id{
+position: absolute;
+left: 590px;
+top: 1060px;
+width: 200px;  
+}
+
+.General{
+position: absolute;
+left: 850px;
+top: 1040px;
+width: 200px;  
+
+}
+
+.Contractor{
+
+    position: absolute;
+left: 850px;
+top: 1060px;
+width: 200px;  
+}
+
+.beat{
+
+top: 1300px;
+    position: absolute;
+    width: 98%;
+            height: 100%;
+          object-fit: cover;
+}
+.hul{
+position: absolute;
+top: 1480px;
+color: white;
+right: 100px;
+width: 500px;
+
+
+}
+.otd{
+
+top: 1600px;
+right: 550px;
+position: absolute;
+height: 55px;
+  width: 55px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.tod{
+
+    top: 1800px;
+right: 550px;
+position: absolute;
+height: 55px;
+  width: 55px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block; 
+}
+.rod{
+    top: 1700px;
+right: 550px;
+position: absolute;
+height: 55px;
+  width: 55px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block; 
+
+}
+.ok{
+  font-size: 30px;
+    
+    top: 1580px;
+right: 565px;
+position: absolute;
+
+}
+.ko{
+
+    font-size: 30px;
+    
+    top: 1680px;
+right: 565px;
+position: absolute;  
+}
+.okko{
+
+    font-size: 30px;
+    
+    top: 1780px;
+right: 565px;
+position: absolute; 
+}
+.SETUP {
+    position: absolute;
+top: 1570px;
+color: white;
+right: 50px;
+width: 500px;
+}
+.text{
+
+    position: absolute;
+top: 1590px;
+color: white;
+right: 50px;
+width: 500px;
+
+}
+.pext{
+    position: absolute;
+top: 1670px;
+color: white;
+right: 50px;
+width: 500px;
+
+}
+.dext{
+ position: absolute;
+top: 1690px;
+color: white;
+right: 50px;
+width: 500px;
+
+}
+.next{
+position: absolute;
+top: 1780px;
+color: white;
+right: 50px;
+width: 500px;
+
+}
+.gext{
+
+    position: absolute;
+top: 1800px;
+color: white;
+right: 50px;
+width: 500px;  
+}
+.tik{
+position: absolute;
+top: 2000px;
+
+
+
+
+}
+.tok{
+
+    position: absolute;
+    top: 2100px;
+    color: rgb(57, 9, 9);
+    width: 300px;
+}
+.ding{
+position: absolute;
+top: 2100px;
+left: 340px;
+width: 200px;
+
+
+}
+.dong{
+ position: absolute;
+top: 2150px;
+left: 340px;
+width: 200px;   
+}
+.jong{
+position: absolute;
+top: 2250px;
+left: 340px;
+width: 200px; 
+color: rgb(195, 195, 13);  
+}
+.bing{
+position: absolute;
+right: 400px;
+top: 2100px;
+width: 300px;
+    
+}
+.hwei{
+position: absolute;
+right: 165px;
+top: 2100px;
+width: 200px;
+
+}
+.voll{
+    
+ position: absolute;
+right: 165px;
+top: 2150px;
+width: 200px;  
+}
+.cab{
+    position: absolute;
+right: 165px;
+top: 2250px;
+width: 200px;  
+color: rgb(195, 195, 13);
+}
+.container{
+    position: absolute;
+    top: 2400px;
+    background-color: #555;height: 160px;
+    color: #fffafa;
+    width: 100%;
+   
+
+    
+}
+
+.tdi {
+   position: absolute;
+   left: 500px;
+    top: 2480px;
+    height: 40px;
+  width: 40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dti{
+position: absolute;
+right: 600px;
+top: 2480px;
+    height: 40px;
+  width: 40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.kool{
+position: absolute;
+right: 608px;
+top: 2450px;
+font-size: 30px;
+
+
+
+}
+.cool{
+position: absolute;
+left: 515px;
+top: 2450px;
+font-size: 30px;
+}
+.koma{
+position: absolute;
+top: 2590px;
+left: 700px;
+background-color: rgb(248, 248, 9);
+
+
+}
+.mold{
+position: absolute;
+background-color: yellow;width: 680px;height: 70px;
+top: 2560px;
+
+left:20px ;
+
+
+
+}
+.ornn{
+    position: absolute;
+    object-fit: cover;
+top: 2630px;
+height: 350px;
+width: 100%;
+object-fit: fill;
+
+
+
+
+}
+.idk{
+position: absolute;
+    top: 2700px;
+    color: #f2eaea;
+    width: 300px;
+}
+.phonenumber{
+position: absolute;
+top: 2800px;
+color: white;
+width: 150px;
+
+}
+.nrm{
+
+position: absolute;
+    top: 2850px;
+    color: white;
+}
+.gmail{
+position: absolute;
+top: 2900px;
+color: white;
+
+
+}
+.post{
+position: absolute;
+top: 2700px;
+color: white;
+left: 500px;
+}
+.long{
+position: absolute;
+top: 2800px;
+left: 500px;
+height: 75px;
+width: 75px;
+
+
+
+
+}
+.jokas{
+position: absolute;
+top: 2780px;
+left: 590px;
+color: rgb(255, 255, 0);
+
+}
+.logas{
+position: absolute;
+top: 2798px;
+left: 590px;
+color: white;
+
+
+}
+.lohas{
+position: absolute;
+left: 590px;
+top: 2815px;
+width: 200px;
+color: white;
+
+}
+.rol{
+position: absolute;
+top: 2890px;
+width: 75px;
+height: 75px;
+left: 500px;
+
+    
+
+
+}
+.painting{
+position: absolute;
+color: yellow;
+top: 2875px;
+left: 590px;
+
+
+}
+.dmin{
+position: absolute;
+color: white;
+top: 2892px;
+left: 590px;
+
+
+}
+.pov{
+position: absolute;
+color: white;
+top: 2910px;
+left: 590px;
+width: 200px;
+
+
+}
+.rock{
+position: absolute;
+color:white;
+top: 2700px;
+left: 850px;
+
+
+
+}
+.rarch{
+    position: absolute;
+    color: white;
+    top: 2780px;
+left: 850px;
+width: 200px;
+
+    
+
+}
+.instagram{
+position: absolute;
+color: white;
+top: 2700px;
+left: 1150px;
+
+
+
+
+}
+.lore{
+position: absolute;
+top: 2800px;
+left: 1150px;
+    width: 75px;
+    height: 75px;    
+}
+.heaing{
+position: absolute;
+top: 1400px;
+left: 750px;
+width: 490px;
+color: white;
+
+}
+.gore{
+position: absolute;
+top: 2900px;
+color: white;
+left: 850px;
+width: 300px;
+
+
+
+
+}
+.coc{
+position: absolute;
+height: 75px;
+width: 75px;
+top: 2880px;
+left: 1150px;
+
+
+}
+.olas{
+position: absolute;
+width: 75px;
+height: 75px;
+top: 2800px;
+left: 1230px;
+
+
+
+}
+.salol{
+position: absolute;
+height: 75px;
+width: 75px;
+top: 2880px;
+left: 1230px;
+}
+</style>
+<ul class="phone">  
+<li><a class="jolod" href="#home">Call: us +89 905 01 00 25</a></li>
+<li><a href="#news">Email Us:themesflat@gmail.com</a></li>
+</ul>
+<ul>
+    <li><a             class="active"                              href="#home">  Home</a>    </li>
+    <li><a                 class="mock"                                                   href="#news">News</a></li>
+    <li><a              class="lock"                                             href="#contact">Contact</a></li>
+    <li><a             class="dock"                                               href="#about">About</a></li>
+<div class="icon">
+    <img  class="j"     src="https://img.icons8.com/color/30/000000/facebook.png" alt="Facebook">
+    <img  class="k"    src="https://img.icons8.com/color/30/000000/google-logo.png" alt="Google">
+    <img  class="ü"    src="https://img.icons8.com/color/30/000000/pinterest.png" alt="Pinterest">
+    <img   class="s"    src="https://img.icons8.com/color/30/000000/twitter.png" alt="Twitter">
+</div>
+    </ul>
+    <img  class="LOL"  src="7777.webp"alt="">
+    
+    <h1  class="headingl">   Our   global is satisfly you</h1>
+    <p  class="paragraph">    Working together to achieve our clients goals isn"t just wishful thinking </p>
+    <div class="rectangle"> </div>
+    <p class="Read">      Read more  ></p>
+<p   class="dolas">  </p>
+<p class="contact ">   Contact Us ></p>
+    <main>
+        <section class="banner">
+        </section>
+        <div style="text-align:center">
+            <span class="dot">  </span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <p1 class="Modern">        <strong>Modern Design</strong></p1>
+          <p  class="Nullam">    Nullam ultricies urna id ornare interdum.Maecenas ut suscipit mauris,non sodales metus</p>
+          <p  class="urna"><strong>Costruction Managment</strong>   </p>
+          <p  class="id"> Nullam ultricies urna id ornare interdum.Marcenas ut suscipit mauris,non sodales metus   </p>
+          <p class="General"> <STRong>General Contractor </STRong>     </p>
+          <p class="Contractor">  Nullam ultricies urna id ornare interdum.Maecenas ut suscipit mauris,non sodale metus.</p>
+<img  class="beat"    src="zol.jpg">
+<div style="text-align:center">
+    <span class="otd"></span>
+    <span class="otd"></span>
+    <span class="otd"></span>
+    <span class="otd"></span>
+  </div>
+  <span class="tod"></span>
+  <span class="tod"></span>
+  <span class="tod"></span>
+  <span class="tod"></span>
+</div>
+<span class="rod"></span>
+<span class="rod"></span>
+<span class="rod"></span>
+<span class="rod"></span>
+</div>  
+<p></p>  
+<h1 class="heaing">WELCOME TO    <span style='color: rgb(242, 242, 0);'>ARCH</span>  <br>COMPANY</br>              </h1>
+<p class="ok">   <strong>></strong></p>
+<p class="ko"><strong>></strong></p>
+<p class="okko"><strong>></strong></p>
+<p class="SETUP">  <strong>EASY SETUP </strong></P>
+    <p class="text">  Luctus velit Vel Eleifend Luctus Quan Angte interdum Nibh Non Solictitudin Enim Mauris    </p>
+    <p class="pext"><strong>ITS BEAUTIFUL</strong></p>
+    <p class="dext"> Luctus velit Vel Eleifend Luctus Quan Angte interdum Nibh Non Solictitudin Enim Mauris</p>
+    <p  class="next">    <strong>MODERN DESIGN</strong></p>
+    <p class="gext"> Luctus velit Vel Eleifend Luctus Quan Angte interdum Nibh Non Solictitudin Enim Mauris  </p>
+   </div>
+   <p class="tik" >     <strong>FROM THE BLOG</strong></p>     
+   <img   class="tok"  src="pist.jpg">
+   <p class="ding">     <strong>Seven weeks working "pro bono"with a charity</strong></p>
+   <p class="dong"> In your life  you may have many times facing financial issues.It"s good if you know how to handle it by yourself and have enough</p>
+   <p class="jong"> Continue Reading ></p>
+</div>
+<img   class="bing"    src="pist.jpg">
+<p class="hwei">     <strong>Seven weeks working "pro bono"with a charity </strong></p>
+<p class="voll">In your life  you may have many times facing financial issues.It"s good if you know how to handle it by yourself and have enough</p>
+<p class="cab"> Continue Reading > </p>
+</div>
+
+<p class="container"> Lorem ipsum dolor sit amet,consectetur adipiscing elit.Sed edget risus porta,tincidunt turpis at,interdum tortor.Suspendisse potenti.Lorem ipsum dolor sit amet,consectetur adioiscing elit.Sociis natoque penatibus et magnis dis parturient montes,nascentur ridiculus mus.                </p>
+    <span class="tdi"></span>
+    <span class="tdi">  </span> 
+  </div>
+   
+  <span class="dti"></span>
+  <span class="dti"></span>
+  <div>
+    <p class="kool">               ></p>
+    <p class="cool">        <               </p>
+
+
+
+  </div>
+
+  <form   class="koma"    action="/action_page.php">
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit">
+  </form>
+<div>
+             <p  style="color:rgb(0, 0, 0);"        class="mold"> Need more information? <br>we can call you and help you with your problem,just leave us your phone number</br>     </p>
+</div>
+<img    class="ornn"       src="ornn.jpg">
+<p  class="idk"> About us: <br>   Lorem ipsum sit amet consectetur adipiscing elit.Morby elementum nibh quis massa tristique pulvinar     </br>                                     </p>
+<P class="phonenumber">  95 Amphitheatre London WC1n 3BG      </P> 
+<P class="nrm">+44 900 468 5555    </P>
+<p class="gmail"> contact@arch.com  </p>
+<p  class="post">  RECENT POSTS </p>
+<img    class="long" src="roland.jpg" alt="">
+<p class="jokas"> Within the construction                </p>
+<p  class="logas">By Admin/02 March 2016   </p>
+<p class="lohas">  Lorem ipsum dolor sit amet.consecteur   </p>
+<img   class="rol"       src="roland.jpg" alt="">
+<p class="painting"> Prepare a room painting  </p>
+<p  class="dmin"> By Admin/02 March 2016    </p>
+<p class="pov">  Lorem ipsum dolor sit amet.consecteur  </p>
+<p class="rock">TWITTER      </p>
+<p class="rarch">   <span style='color: rgb(242, 242, 0);'>@Arch</span>  Lorem ipsum dolor sit amet consecteur adipiscing elit phaselius quis est sem.  </p>
+<p class="instagram">   INSTAGRAM      </p>
+<img     class="lore"    src="roland.jpg" alt="">
+<p class="gore">@Arch Donec sed congue elit Suspendisse sed tincidunt libero     <br>  <span style='color: rgb(242, 242, 0);'>  https://bit.ly/58788998   </span> </br>  </p>
+<img  class="coc"            src="roland.jpg" alt="">
+<img  class="olas"            src="roland.jpg" alt="">
+<img  class="salol"                         src="roland.jpg" alt="">
+
+
+
+    </html>
+  
+
+
